@@ -9,6 +9,7 @@
     "preview": "nuxi preview"
   },
   "devDependencies": {
+    "@nuxthq/studio": "^2.2.1",
     "content-wind": "latest",
     "nuxt": "latest"
   }

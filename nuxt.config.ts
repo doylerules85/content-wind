@@ -1,9 +1,9 @@
 export default defineNuxtConfig({
-  extends: 'content-wind',
+  extends: "content-wind",
 
   routeRules: {
-    '/': { prerender: true }
+    "/": { prerender: true },
   },
-
-  compatibilityDate: '2024-10-29'
-})
+  modules: ["@nuxthq/studio"],
+  compatibilityDate: "2024-10-29",
+});
